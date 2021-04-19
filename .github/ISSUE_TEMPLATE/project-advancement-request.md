@@ -2,7 +2,7 @@
 name: Project Advancement Request
 about: Suggest an idea for this project
 title: ''
-labels: ''
+labels: new project advancement
 assignees: ''
 
 ---
