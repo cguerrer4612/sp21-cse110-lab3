@@ -2,7 +2,7 @@
 name: New Feature Issue Template
 about: Suggest an idea for this project.
 title: New Feature Request
-labels: enhancement
+labels: enhancement, new project advancement
 assignees: ''
 
 ---
@@ -14,4 +14,4 @@ A clear and concise description of what the new feature. Ex: "This feature will 
 A clear and concise description of the benefits of adding this new feature.
 
 **Additional context**
-Add any other context or screenshots about the feature request here.
+Add any other context or screenshots about the new feature request here.
