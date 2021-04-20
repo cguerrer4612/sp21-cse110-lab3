@@ -1,0 +1,147 @@
+/*styling for main*/
+@font-face {
+    font-family: "Georgia";
+    src: url("https://www.tutorialbrain.com/css_tutorial/css_font_family_list/");
+}
+
+div.entry h2{
+    color: rgb(251,101,66);
+    text-align: center;
+    position: relative;
+}
+
+.grid-container{
+    display: inline-grid;
+}
+
+.grid-container #grid2{
+    display: block;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.flex-container > div{
+    margin: 50px;
+}
+
+*{
+    background-color: #6E75A8;
+    font-family: Georgia;
+}
+
+img video{
+    position: absolute;
+}
+  
+@media only screen and (max-width: 500px) and (max-height: 500px) {
+    *{
+      background-color: lightsalmon;
+      font-family: Georgia;
+    }
+}
+
+a{
+    padding: .25%;
+    padding-left: 1%;
+}
+
+#game{
+    background-color: lightgoldenrodyellow;
+}
+
+#cite{
+    text-decoration: underline overline;
+}
+
+.but{
+    margin: auto;
+    background-color: lightcoral;
+}
+
+.but:hover{
+    color: orange;
+    background-color: black;
+}
+
+a:active{
+    color: purple;
+}
+
+summary ~ p{
+    color: #3f681c;
+}
+
+.block, summary + p{
+    border: 3px solid hsl(216, 47%, 40%);
+    padding: 25px;
+    background-color: lightseagreen;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.block, h2 > section{
+    border: 3px solid hsl(216, 47%, 40%);
+    padding: 25px;
+    background-color: lightseagreen;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section > h2{
+    color: #3f681c;
+    background-color: lightgoldenrodyellow;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.textenter{
+    border-style:inset;
+    background-color: white;
+    padding: 3px;
+    margin-block-start: auto;
+}
+
+/*styling for journal entry #1*/
+.entry, h3[target=_subheader]{
+    color: rgb(255,187,0);
+}
+
+.block, #highlowlights ol{
+    border: 3px solid hsl(216, 47%, 40%);;
+    padding:25px;
+    background-color: lightseagreen;
+    margin-right: auto;
+    margin-left: auto;
+}
+#highlowlights li{
+    color: #3f681c;
+    background-color: lightgoldenrodyellow;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+#todo li{
+    margin: auto;
+    background-color: lightgoldenrodyellow;
+    color: #3f681c;
+    border: 3px solid hsl(216, 47%, 20%);
+    border-radius: 5px;
+}
+
+.block, #todo ul{
+    border: 2px solid hsl(216, 47%, 40%);
+    padding: 17px;
+    background-color: lightseagreen;
+}
